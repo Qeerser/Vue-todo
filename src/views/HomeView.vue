@@ -54,7 +54,7 @@ const todoFilteredList = computed(() => {
       type="text"
       v-model="addText"
     />
-    <button class="btn ml-4" @click="addTodo()">Add</button>
+    <button class="btn ml-4 btn-outline btn-secondary" @click="addTodo()">Add</button>
   </div>
   <div class="tabs tabs-boxed my-2">
     <a
